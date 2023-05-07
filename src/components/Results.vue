@@ -1,5 +1,5 @@
 <template>
-  <p>Reaction Time: {{ score }} ms</p>
+  <p class="score">Reaction Time: {{ score }} ms</p>
   <p class="rank">{{ rank }}</p>
 </template>
 
@@ -28,5 +28,18 @@ export default {
   font-size: 1.4rem;
   color: #eee;
   font-weight: bold;
+}
+.rank:hover {
+  font-size: 1.4rem;
+  color: aqua;
+  font-weight: bold;
+}
+.score {
+  color: aqua;
+  font-size: 25px;
+}
+.score:hover {
+  color: #eee;
+  font-size: 24px;
 }
 </style>
