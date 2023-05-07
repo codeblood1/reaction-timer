@@ -40,7 +40,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #444;
+  color: black;
   margin-top: 60px;
 }
 button {
@@ -57,5 +57,13 @@ button {
 button[disabled] {
   opacity: 0.2;
   cursor: not-allowed;
+}
+body {
+  margin: 0;
+  background-image: url("./assets/photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 </style>

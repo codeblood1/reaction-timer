@@ -26,7 +26,7 @@ export default {
 <style>
 .rank {
   font-size: 1.4rem;
-  color: #0faf87;
+  color: #eee;
   font-weight: bold;
 }
 </style>
